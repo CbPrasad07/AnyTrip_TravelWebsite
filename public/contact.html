@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Contact Us - Any Trip</title>
+</head>
+<body>
+    <section class="nav-bar">
+        <div class="logo">Any Trip</div>
+        <ul class="menu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="tours.html">tours</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: info@anytrip.com</p>
+            <p>Phone: +1234567890</p>
+            <p>Address: 123 Any Trip Street, City, Country</p>
+        </div>
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="/contact" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+    </section>
+
+</body>
+</html>

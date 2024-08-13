@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Tour Confirmation</title>
+    <style>
+        body {
+    font-family: sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.guests,
+.rooms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guests label,
+.rooms label {
+    width: 30%;
+}
+
+.guests input[type="number"],
+.rooms input[type="number"] {
+    width: 20%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fde02f;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: orange;
+}
+.date{
+    padding: 15px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: Roboto;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+}
+
+    </style>
+</head>
+
+<body>
+    <section class="nav-bar">
+        <div class="logo">Any Trip</div>
+        <ul class="menu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="tours.html">tours</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="contact.html">contact us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        </div>
+    </section>
+    <form action="thanks.html">
+        <h2>Confirm Booking</h2>
+        <div class="form-group">
+            <label for="check-in">Check-in Date:</label>
+            <input class="date" type="date" id="check-in" name="check-in" placeholder="YYYY/MM/DD">
+            <span>to</span>
+            <input class="date" type="date" id="check-out" name="check-out" placeholder="YYYY/MM/DD">
+        </div>
+        <h4>Options</h4>
+        <div class="form-group">
+            <label for="adults">Adults:</label>
+            <input type="number" id="adults" name="adults" value="1">
+        </div>
+        <div class="form-group">
+            <label for="children">Children:</label>
+            <input type="number" id="children" name="children" value="0">
+        </div>
+        <div class="form-group">
+            <label for="rooms">Room:</label>
+            <input type="number" id="rooms" name="rooms" value="1">
+        </div>
+        <button type="submit">Book Now</button>
+    </form>
+    
+</body>
+
+</html>
