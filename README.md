@@ -6,13 +6,13 @@
  ## 🔗 To see the project
 [AnyTrip website](any-trip-travel-website.vercel.app)
 
+## Preview
+<img src= "https://github.com/user-attachments/assets/8ae99f43-4858-4752-8079-c9686ba67572" width = "75%">
+<img src= "https://github.com/user-attachments/assets/0a3286c3-3f94-407d-aca2-e78c791f9676" width="75%">
+<img src= "https://github.com/user-attachments/assets/6f29939e-cef4-424a-b428-15892fe95b6d" width = "75%">
+<img src= "https://github.com/user-attachments/assets/21b55a65-988f-48f6-9edb-de8bd5eefeb0" width = "75%">
 
-## 👓 Preview
-<img src= "" width = "75%">
-<img src= "" width="75%">
-<img src= "" width = "75%">
-
-## ⛰ Adventure - Features 
+## ⛰ Features 
 
 - Destination Browsing: Explore a wide range of travel destinations.
 - Package Details: View comprehensive details of each travel package.
