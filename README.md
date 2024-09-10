@@ -4,7 +4,7 @@
  -  AnyTrip is a full-stack web application designed to enhance your travel planning experience. It allows users to effortlessly browse and book a variety of travel packages. With a user-friendly interface, AnyTrip enables exploration of different destinations, viewing of detailed package information, and secure online booking, making it the perfect tool for planning your next adventure.
  
  ## 🔗 To see the project
-[AnyTrip website](any-trip-travel-website.vercel.app)
+[AnyTrip website](https://any-trip-travel-website.vercel.app/)
 
 ## Preview
 <img src= "https://github.com/user-attachments/assets/8ae99f43-4858-4752-8079-c9686ba67572" width = "75%">
